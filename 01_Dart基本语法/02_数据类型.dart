@@ -33,4 +33,19 @@ main(List<String> args) {
   // if (msg) { // 报错 Conditions must have a static type of 'bool'.
   //   print(msg);
   // }
+
+  // 字符串
+  var s1 = 'hello lxf';
+  var s2 = "hello lxf";
+  // 多行字符串
+  var s3 = '''
+  hello
+  hey
+  lxf
+  ''';
+  // 字符串拼接
+  var s4 = s1 + s2;
+  print(s4);
+  var s5 = 's1 = $s1 and s4 = ${s1 + s2}';
+  print(s5);
 }
