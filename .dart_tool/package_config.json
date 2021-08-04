@@ -1,0 +1,68 @@
+{
+  "configVersion": 2,
+  "packages": [
+    {
+      "name": "charcode",
+      "rootUri": "file:///C:/Users/LXF/AppData/Local/Pub/Cache/hosted/pub.flutter-io.cn/charcode-1.3.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "collection",
+      "rootUri": "file:///C:/Users/LXF/AppData/Local/Pub/Cache/hosted/pub.flutter-io.cn/collection-1.15.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "dio",
+      "rootUri": "file:///C:/Users/LXF/AppData/Local/Pub/Cache/hosted/pub.flutter-io.cn/dio-4.0.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "http_parser",
+      "rootUri": "file:///C:/Users/LXF/AppData/Local/Pub/Cache/hosted/pub.flutter-io.cn/http_parser-4.0.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "path",
+      "rootUri": "file:///C:/Users/LXF/AppData/Local/Pub/Cache/hosted/pub.flutter-io.cn/path-1.8.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "source_span",
+      "rootUri": "file:///C:/Users/LXF/AppData/Local/Pub/Cache/hosted/pub.flutter-io.cn/source_span-1.8.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "string_scanner",
+      "rootUri": "file:///C:/Users/LXF/AppData/Local/Pub/Cache/hosted/pub.flutter-io.cn/string_scanner-1.1.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "term_glyph",
+      "rootUri": "file:///C:/Users/LXF/AppData/Local/Pub/Cache/hosted/pub.flutter-io.cn/term_glyph-1.2.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "typed_data",
+      "rootUri": "file:///C:/Users/LXF/AppData/Local/Pub/Cache/hosted/pub.flutter-io.cn/typed_data-1.3.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "dartStudy",
+      "rootUri": "../",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    }
+  ],
+  "generated": "2021-08-04T15:34:01.858485Z",
+  "generator": "pub",
+  "generatorVersion": "2.13.4"
+}
