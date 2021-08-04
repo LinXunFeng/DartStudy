@@ -6,7 +6,11 @@ mixin Runner on Animal {
   }
 }
 
-class Animal {}
+class Animal {
+  run() {
+    print('Animal run');
+  }
+}
 
 class SuperPeople extends Animal with Runner {}
 
