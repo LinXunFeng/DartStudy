@@ -12,13 +12,27 @@ import 'libs/math_utils.dart';
 // 导入第三方库
 import 'package:dio/dio.dart';
 
-main(List<String> args) {
+/**
+ * 延迟加载
+ * 
+ * 作用：在需要的时候才进行加载
+ * 好处：减少app的启动时间
+ * 使用：使用 deferred as
+ */
+import 'package:dio/dio.dart' deferred as diolib;
+
+main(List<String> args) async {
   print(sum(10, 20)); // 30
   print(multiply(10, 20)); // 200
   // print(MathUtils.sum(10, 20)); // 30
   // print(MathUtils.multiply(10, 20)); // 200
 
+  // 使用第三方库
   getHttp();
+
+  // 调用loadLibrary方法来加载延迟加载的库
+  await diolib.loadLibrary();
+  diolib.Dio().get('http://www.google.cn');
 }
 
 void getHttp() async {
