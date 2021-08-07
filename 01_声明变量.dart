@@ -20,6 +20,7 @@ main(List<String> args) {
   print(type.runtimeType); // String
   type = 18;
   print(type.runtimeType); // int
+  // type.abc(); // 编译期不会报错，运行时找不到方法报错
 
   // final 和 const 都用来定义变量
   // 区别：
