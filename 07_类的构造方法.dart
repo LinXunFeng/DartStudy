@@ -59,6 +59,32 @@ class Person5 {
   Person5._internal(this.name);
 }
 
+/**
+ * 会报错：The default constructor of superclass 'Father' (called by the implicit default constructor of 'Son') must be a generative constructor, but factory found.
+ * 
+class Father {
+  factory Father() {
+    return Father._internal();
+  }
+  Father._internal();
+}
+
+class Son extends Father {}
+ */
+
+class Father {
+
+  Father();
+
+  factory Father.factory() {
+    return Father._internal();
+  }
+  Father._internal();
+}
+
+class Son extends Father {}
+
+
 main(List<String> args) {
   // var p1 = Person1();
   var p1 = Person1.withArgs('lxf', 18);
